@@ -231,4 +231,5 @@ In this case `x .* x` will have size `(1, 5)`, and `y .* y` will have size `(6, 
 ### Exercises
 1. Read the code in `forward_difference.m`, `central_difference.m` and `compare.m`. Make sure you understand it.
 2. Experiment using different functions and their analytic derivatives. Which approximation method tends to give the best results for small `h`?
-3. Write vectorized code that allows you to calculate the derivative approximation for multiple `x` values and multiple `y` values using a single call to `forward_difference` or `central_difference`.
+3. Read the documentation for `vis_fd`. Experiment with its usage using a variety of functions. Which finite difference approximation method gives the most accurate approximation most of the time? The code in this function is longer than most, but there shouldn't be anything you can't understand with a bit of digging.
+4. Write vectorized code that allows you to calculate the derivative approximation for multiple `x` values and multiple `y` values using a single call to `forward_difference` or `central_difference`. The functions themselves need not be edited, but you'll have to be careful in constructing the arguments you pass into them.

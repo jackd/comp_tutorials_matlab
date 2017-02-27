@@ -3,7 +3,7 @@ function vis_fd(f, x, h, fd_type, xmin, xmax, dfdx)
   %   f: function
   %   x: point at which to consider gradient
   %   h: step size used in gradient (visualization is dull if too small)
-  %   fd_dtype: one of 'f', 'b', 'c' for forward, backward, central
+  %   fd_type: one of 'f', 'b', 'c' for forward, backward, central
   %     respectively. Defaults to 'c'
   %   xmin: min x-value. Defaults to x - 3h
   %   xmax: max x-value. Defaults to x + 3h

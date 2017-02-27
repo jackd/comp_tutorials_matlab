@@ -8,7 +8,7 @@ function x = nchoosek_factorial(n, k)
   if k > n
     error('k must be less than or equal to n');
   end
-  if floor(n) != n || floor(k) != k
+  if floor(n) ~= n || floor(k) ~= k
     error('n and k must be integers');
   end
   error('Not implemented');

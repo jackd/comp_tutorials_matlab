@@ -20,7 +20,7 @@ This is equivalent to using the forward different equation with a negative `h` v
 
 The final approximation we'll investigate here is called the central different approximation, which uses a point just to the left, and just to the right of the `x` value and averages the gradient,
 ```
-df/dx c.d. approx = (f(x + h) - f(x - h)) / (2*h), h != 0.
+df/dx c.d. approx = (f(x + h) - f(x - h)) / (2*h), h ~= 0.
 ```
 
 Note this is the average of the forward and backward difference approximations,

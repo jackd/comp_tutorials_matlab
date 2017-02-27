@@ -6,7 +6,7 @@ function x = nchoosek_recursive(n, k)
     error('n and k must be non-negative');
   elseif k > n
     error('k must be less than or equal to n');
-  elseif floor(n) != n || floor(k) != k
+  elseif floor(n) ~= n || floor(k) ~= k
     error('n and k must be integers');
   end
 

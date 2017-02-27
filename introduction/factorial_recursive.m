@@ -1,7 +1,7 @@
 function p = factorial_recursive (n)
 % FACTORIAL_RECURSIVE calculate n! = factorial(n) recursively.
 %  n: must be non-negative integer.
-  if floor(n) != n
+  if floor(n) ~= n
     error('n must be an integer')
   end
   if n < 0
